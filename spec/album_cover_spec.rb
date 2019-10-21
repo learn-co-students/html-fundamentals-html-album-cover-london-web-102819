@@ -1,6 +1,6 @@
 RSpec.describe 'HTML Album Cover' do
 
-    context 'within <body>' do
+  #  context 'within <body>' do
       it 'the title-box section contains the correct header sizes and text content' do
         title_box = parsed_html.search('#title-box').first
 
